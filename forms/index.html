@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Form</title>
+  <link href="css/main.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+
+    <form action="thanks.html" method="post">
+    
+        <div>
+            <label for="name">Name</label>
+            <input id="name">
+        </div>
+        
+     <div>
+        <button type="submit">Send!</button>
+    </div>
+        
+          <div>
+            <label for="email">E-mail Address</label>
+            <input class="field" type="email" id="email-addr">
+        </div>
+        
+     <!--
+        All the input types:
+        - Text (default, if you leave the type="" off)
+        -email
+        -url
+        -tel
+        -password
+        -date
+        -time
+        -color
+        -file
+        -checkbox
+        -range
+        -ratio
+
+    -->
+       
+    <div>
+        <label for="awesome"> Level of awesomeness:</label>
+        <input type="range" id="awesome" min="4" max="11" value="10">
+        
+     <div>
+        <button type="submit">Send!</button>
+    </div>
+     
+    
+    <div> 
+        <input type="checkbox" id="dinos">  
+        <label for="dinos">Dinosaurs are awesome</label>
+    </div>
+        
+    <div>
+        <button type="submit">Send!</button>
+    </div>
+        
+    <div>
+        <input type="radio" id="not" name="like-cats">
+        <label for="not">Not at all</label>
+        
+        <input type="radio" id="kinda" name="like-cats">
+        <label for="kinda">Kinda...</label>
+        
+        <input type="radio" id="love" name="like-cats">
+        <label for="love">Love all the cats!</label>     
+    </div>
+    
+    <div>
+        <label for ="fav-color">Favourite Colour</label>
+        <select id="fav-color">
+            <option>Black</option>
+            <option>Orange</option>
+            <option selected>Grey</option>
+            <option>Pink</option>
+        </select> 
+    </div>
+        
+    <div>
+        <label for ="whats-up">Whats up?</label>  
+        <textarea id="whats=up"></textarea>   
+    </div>
+        
+    </form>
+    
+</body>
+</html>
